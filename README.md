@@ -56,6 +56,20 @@ A Clojure library designed to provide a simple Lisp DSL that handles --hacks--:
   * etc
     * for and @ideas, see [`bork`](https://github.com/mattly/bork)
 
+## Pillars
+
+* Self contained
+  * reduce an amount of deps and setup for new commer to minimum
+* Distributed
+* Build-in sistem discovery
+  * DHT
+    * kademlia ?
+* Can be Simulated a.k.a. `--dry-run`
+  * locally
+  * on remote env like:
+    * stg
+    * prod
+
 ## License
 
 Copyright © 2018 MIT
